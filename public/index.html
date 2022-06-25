@@ -11,5 +11,10 @@
     <button data-action="click->hello#greet">Greet</button>
   </div>
   <h1 data-controller="example"></h1>
+
+  <div data-controller="clipboard">
+    PIN: <input data-clipboard-target="source" type="text" value="1234" readonly>
+    <button data-action="click->clipboard#copy">Copy to clipboard</button>
+  </div>
 </body>
 </html>
