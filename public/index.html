@@ -7,8 +7,8 @@
 </head>
 <body>
   <div data-controller="hello">
-    <input type="text">
-    <button>Greet</button>
+    <input type="text" data-hello-target="name">
+    <button data-action="click->hello#greet">Greet</button>
   </div>
   <h1 data-controller="example"></h1>
 </body>
